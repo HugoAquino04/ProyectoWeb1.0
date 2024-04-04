@@ -23,6 +23,7 @@ namespace ProyectoWeb1._0.Models
 
         [MaxLength(50)]
         public string Apellidos { get; set; }
+        // que pedo con esto
 
         public int GrupoDescuentoId { get; set; }
 
