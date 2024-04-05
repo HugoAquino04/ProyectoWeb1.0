@@ -23,5 +23,7 @@ namespace ProyectoWeb1._0.DataBase
         }
 
         public DbSet<Cliente> Cliente { get; set; }
+        public Dbset<Categorias> Categoria { get; set; }
+
     }
 }
