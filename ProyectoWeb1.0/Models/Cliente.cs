@@ -12,8 +12,6 @@ namespace ProyectoWeb1._0.Models
     {
         [Key]
         public int ClienteId { get; set; }
-        //subida de archivo
-        //mas
 
         [MaxLength(15)]
         public string Codigo { get; set; }
@@ -23,7 +21,6 @@ namespace ProyectoWeb1._0.Models
 
         [MaxLength(50)]
         public string Apellidos { get; set; }
-        // que pedo con esto
 
         public int GrupoDescuentoId { get; set; }
 
